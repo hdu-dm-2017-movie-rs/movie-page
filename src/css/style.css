@@ -6,8 +6,8 @@ html {
 
 body {
     /* height: 80%; */
-    width: 70%;
-    min-width: 700px;
+    width: 80%;
+    min-width: 800px;
     margin: auto;
     padding: 0px;
     border: 0px;
@@ -22,6 +22,13 @@ button {
 
 input {
     border-radius: 5px;
+}
+
+h2,
+h3,
+h4,
+body {
+    background-color: rgb(235, 245, 245);
 }
 
 #top>span {
@@ -49,12 +56,17 @@ input {
     line-height: 35px;
 }
 
-#movie-bar {
-    min-height: 500px;
-}
-
 #movie-items {
     min-width: 800px;
+}
+
+.movie-name {
+    display: block;
+    font-size: 25px;
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .form {
