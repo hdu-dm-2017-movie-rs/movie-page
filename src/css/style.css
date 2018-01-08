@@ -49,6 +49,14 @@ input {
     line-height: 35px;
 }
 
+#movie-bar {
+    min-height: 500px;
+}
+
+#movie-items {
+    min-width: 800px;
+}
+
 .form {
     color: rgb(252, 252, 252);
     margin: 0 auto;
@@ -69,6 +77,15 @@ input {
     margin: 0px auto;
     line-height: 28px;
     display: inline-block;
+}
+
+.movie-summary {
+    word-break: break-all;
+    margin: 0;
+    padding: 0;
+    color: #111;
+    font-size: 13px;
+    line-height: 1.62;
 }
 
 div {
@@ -97,8 +114,10 @@ ul>li {
     clear: both;
 }
 
-.show-img {
-    width: 85px;
+.movie-img {
+    max-width: 140px;
+    min-width: 100px;
+    /* width: 120px; */
     margin: 0px 20px;
 }
 
