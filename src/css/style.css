@@ -5,12 +5,11 @@ html {
 }
 
 body {
-    /* height: 80%; */
-    width: 80%;
-    min-width: 800px;
+    width: 90%;
+    min-width: 1000px;
     margin: auto;
     padding: 0px;
-    border: 0px;
+    border: 10px;
     font-family: "Times New Roman", Georgia, Serif
 }
 
@@ -31,16 +30,16 @@ body {
     background-color: rgb(235, 245, 245);
 }
 
-#top>span {
-    color: #fff;
-    line-height: 35px;
-}
-
 #top {
     background: rgb(51, 122, 183);
     width: auto;
     height: 35px;
-    border-radius: 1px;
+    border-radius: 2px;
+}
+
+#top>span {
+    color: #fff;
+    line-height: 35px;
 }
 
 #container {
@@ -116,10 +115,10 @@ ul {
 ul>li {
     margin: 10px;
     box-sizing: content-box;
-    max-width: 100%;
-    border-width: 0;
+    max-width: 80%;
+    border-width: 0px;
     vertical-align: middle;
-    border: 0;
+    border: 0px;
 }
 
 .float-clear {
@@ -127,16 +126,16 @@ ul>li {
 }
 
 .movie-img {
-    max-width: 140px;
+    max-width: 180px;
     min-width: 100px;
     /* width: 120px; */
-    margin: 0px 20px;
+    margin: 0px 10px;
 }
 
 ul {
     list-style: none;
-    padding: 30px;
-    margin: 30px;
+    padding: 20px;
+    margin: 20px;
     line-height: 20px;
     /* border: 1px solid #99CC00; */
     font-size: 18px;
