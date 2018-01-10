@@ -23,6 +23,10 @@ input {
     border-radius: 5px;
 }
 
+a {
+    text-decoration: none;
+}
+
 h2,
 h3,
 h4,
@@ -61,8 +65,17 @@ body {
 
 .movie-name {
     display: block;
-    font-size: 25px;
-    height: 30px;
+    font-size: 20px;
+    height: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.movie-rank {
+    display: block;
+    font-size: 15px;
+    height: 20px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -116,6 +129,7 @@ ul>li {
     margin: 10px;
     box-sizing: content-box;
     max-width: 80%;
+    min-height: 200px;
     border-width: 0px;
     vertical-align: middle;
     border: 0px;
